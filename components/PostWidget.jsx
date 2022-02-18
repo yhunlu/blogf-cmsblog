@@ -15,9 +15,7 @@ const PostWidget = ({ categories, slug }) => {
     } else {
       getRecentPosts().then((result) => setRelatedPosts(result));
     }
-  }, [slug]);
-
-  console.log(relatedPosts);
+  }, [categories, slug]);
 
   return (
     <div className="bg-black text-white shadow-lg rounded-lg p-8 mb-8">
