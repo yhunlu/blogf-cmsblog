@@ -10,9 +10,8 @@ import {
 import { getPostDetails, getPosts } from '../../services';
 
 const PostDetails = ({ post }) => {
-  console.log(post);
   return (
-    <div className="container bg-black text-white shadow-lg rounded-lg mx-auto px-10 mb-5">
+    <div className="container text-white shadow-lg rounded-lg mx-auto px-10 mb-5">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
         <div className="col-span-1 lg:col-span-8">
           <PostDetail post={post} />
@@ -45,10 +44,10 @@ export async function getStaticProps({ params }) {
 }
 
 export async function getStaticPaths() {
-    const posts = await getPosts();
+  const posts = await getPosts();
 
-    return { 
-        paths: posts.map(({ node: { slug }}) => ({ params: { slug }})),
-        fallback: false
-    }
+  return {
+    paths: posts.map(({ node: { slug } }) => ({ params: { slug } })),
+    fallback: false,
+  };
 }
