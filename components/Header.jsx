@@ -22,7 +22,7 @@ const Header = () => {
             </div>
           </Link>
         </div>
-        <div className="hidden md:float-left md:contents">
+        {/* <div className="hidden md:float-left md:contents">
           {categories.map((category) => (
             <Link
               key={category.slug}
@@ -34,7 +34,7 @@ const Header = () => {
               </span>
             </Link>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
