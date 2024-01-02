@@ -1,34 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Modern Responsive Jamstack Blog Web Application  
 
-## Getting Started
+Using GraphCMS, graphql, nextjs, tailwindcss, sass is a web application that allows users to create and manage blog posts from a dedicated content management system. The web application uses the following technologies:
 
-First, run the development server:
+**Check out below video:**
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[![graphCMS JamStack Responsive Blog App](https://img.youtube.com/vi/J9L7evPdjCk/0.jpg)](https://www.youtube.com/watch?v=J9L7evPdjCk)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **GraphCMS**: A headless content management system based on GraphQL technology enabling seamless integration with any application. GraphCMS allows users to define their own content models, schemas, and relations, and query them using GraphQL. Users can also use GraphCMS to upload images, videos, and other media files to their blog posts.
+- **GraphQL**: A query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
+- **NextJS**: A React framework for production that enables hybrid static and server rendering, TypeScript support, smart bundling, route pre-fetching, and more. NextJS allows users to create fast and SEO-friendly web applications with minimal configuration and code.
+- **TailwindCSS**: A utility-first CSS framework for rapidly building custom designs. TailwindCSS provides low-level utility classes that let you build completely custom designs without ever leaving your HTML. TailwindCSS also supports responsive design, dark mode, custom forms, animations, and more.
+- **Sass**: A preprocessor that extends CSS with features like variables, nested rules, mixins, functions, and more. Sass helps users write more concise and maintainable CSS code, and also allows them to use advanced features like loops, conditionals, and inheritance.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+**Some features such as:**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Featured and recent posts, categories, full markdown articles, comments.
+- Dynamic and static rendering of pages for optimal performance and SEO.
+- Modern and responsive UI design with custom themes and animations.
+- Easy deployment and hosting on platforms like Vercel.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+***Please include file of the following tasks:***
+#### File: root of application
+  .env
+  ```shell
+  NEXT_PUBLIC_GRAPHCMS_ENDPOINT=https://api-us-east-1.graphcms.com/v2/ckxxxxxxxxxxcl/master
+  GRAPHCMS_TOKEN=eyJhbxxxxxmtB-3FA
+  ```
 
-To learn more about Next.js, take a look at the following resources:
+##### Note: Replace 'xxxx' with your own.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#### The Note that:
+Using Content Management System is 'https://app.graphcms.com/', Please create account as free, and get necessary tokens as per above.
