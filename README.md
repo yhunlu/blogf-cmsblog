@@ -4,7 +4,7 @@ Using GraphCMS, graphql, nextjs, tailwindcss, sass is a web application that all
 
 **Check out below video:**
 
-[![graphCMS JamStack Responsive Blog App](https://img.youtube.com/vi/J9L7evPdjCk/0.jpg)](https://www.youtube.com/watch?v=J9L7evPdjCk)
+[![graphCMS JamStack Responsive Blog App](https://img.youtube.com/vi/PYa1hSfF6sE/0.jpg)](https://www.youtube.com/watch?v=PYa1hSfF6sE)
 
 - **GraphCMS**: A headless content management system based on GraphQL technology enabling seamless integration with any application. GraphCMS allows users to define their own content models, schemas, and relations, and query them using GraphQL. Users can also use GraphCMS to upload images, videos, and other media files to their blog posts.
 - **GraphQL**: A query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
